@@ -1,0 +1,62 @@
+/* *{
+    background-color: blue;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+} */
+body {
+    /* background-image: url('./images/image.png'); */
+    background-color: (218, 44%, 22%); 
+    background-size: cover;
+    background-position: center;
+}
+
+.content {
+  background-color: hsl(212, 45%, 89% );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  margin: 100px 50px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, .7);
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+  border-radius: 7%;
+  background-color: hsl(0, 0%, 100%);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, .5);
+}
+
+/* .information {
+  align-items: center;
+  display: block;
+} */
+
+p.basic-info {
+  font-size: medium;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  display: block;
+  text-align: center;
+  margin: auto;
+}
+p.qr-info{
+    font-size: 15px;
+    font-family: "Outfit", sans-serif;
+    display: block;
+    text-align: center;
+    margin-bottom: 70px;
+    font-weight: 400;
+}
+
+.qr-image {
+  height: 50%;
+  border-radius: 5%;
+  margin: 20px 15px;
+}
+/*  */
