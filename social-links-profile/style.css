@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+* {
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  background-color: black;
+}
+
+.container {
+  max-width: 400px;
+  display: flex;
+  margin: auto;
+  background-color: hsl(0, 0%, 12%); 
+  border-radius: 5px;
+}
+
+.card {
+  max-width: 100%;
+  background-color: hsl(0, 0%, 12%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  flex-direction: column;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+img {
+  border-radius: 50%;
+  width: 35%;
+}
+
+p {
+  margin-top: 10px;
+}
+
+#name {
+  font-display: bold;
+  font-size: 24px;
+  padding-bottom: 0;
+  color: aliceblue;
+  margin-bottom: 10px;
+}
+
+#location {
+  margin-top: 0;
+  color: hsl(75, 94%, 57%);
+  font-size: smaller;
+  font-weight: bold;
+}
+#description {
+  color: hsl(0, 0%, 100%);
+  font-size: smaller;
+  margin: 10px 10px;
+}
+.social-link {
+  background-color: hsl(0, 0%, 20%);
+  text-align: center;
+  width: 100%;
+  padding: 10px 10px;
+  margin: 10px;
+  border-radius: 8px;
+}
+.social-link a {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  font-size: small;
+}
+
+.social-link:hover {
+  background-color: hsl(75, 94%, 57%);
+}
